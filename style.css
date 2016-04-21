@@ -1,0 +1,125 @@
+div {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background-color: black;
+}
+
+#div1 {
+	animation-name: path1;
+	-webkit-animation-name: path1;
+	animation-duration: 5s;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+#div1:active {
+	background-color: red;
+	display: none;
+}
+@-webkit-keyframes path1 {
+	0% {left: 100px; top:100px;}
+	20% {left: 300px; top:300px;}
+	40% {left: 200px; top:600px; background-color: red; border-radius: 20px;}
+	60% {left: 500px; top:200px;background-color: blue; -webkit-transform: rotate(500deg);}
+	80% {left: 200px; top:200px; background-color: yellow; border-radius: 10px;}
+	100% {left: 100px; top:100px; }
+}
+
+#div2 {
+	animation-name: path2;
+	-webkit-animation-name: path2;
+	animation-duration: 5s;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+#div2:active {
+	background-color: red;
+	display: none;
+}
+@-webkit-keyframes path2 {
+	0% {left: 50px; top:200px;}
+	20% {left: 350px; top:350px;}
+	40% {left: 25px; top:600px; background-color: red; border-radius: 20px;}
+	60% {left: 800px; top:90px;background-color: blue; -webkit-transform: rotate(500deg);}
+	80% {left: 20px; top:20px; background-color: yellow; border-radius: 10px;}
+	100% {left: 10px; top:700px; }
+}
+
+
+
+#div3 {
+	animation-name: path3;
+	-webkit-animation-name: path3;
+	animation-duration: 6s;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+#div3:active {
+	background-color: red;
+	display: none;
+}
+@-webkit-keyframes path3 {
+	0% {left: 0px; top:450px;}
+	20% {left: 350px; top:600px;}
+	40% {left: 280px; top:60px; background-color: #e45a33; border-radius: 20px; width:100px; height: 20px;}
+	60% {left: 80px; top:800px;background-color: #e5543a; width:20px; height: 100px; -webkit-transform: rotate(1000deg);}
+	80% {left: 222px; top:20px; background-color: #e0aa31; border-radius: 10px;}
+	100% {left: 180px; top:188px; }
+}
+
+
+#div4 {
+	animation-name: path4;
+	-webkit-animation-name: path4;
+	animation-duration: 4s;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+#div4:active {
+	background-color: red;
+	display: none;
+}
+@-webkit-keyframes path4 {
+	0% {left: 80px; top:480px;}
+	20% {left: 30px; top:65px;}
+	40% {left: 280px; top:680px; background-color: #e45a30; border-radius: 20px; width:100px; height: 20px;}
+	60% {left: 400px; top:80px;background-color: #e5888a; width:20px; height: 100px; -webkit-transform: rotate(10deg);}
+	80% {left: 22px; top:200px; background-color: #e00a31; border-radius: 10px;}
+	100% {left: 400px; top:178px; }
+}
+
+
+#div5 {
+	animation-name: path5;
+	-webkit-animation-name: path5;
+	animation-duration: 3.5s;
+	-webkit-animation-duration: 3.5s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+#div5:active {
+	background-color: red;
+	display: none;
+}
+@-webkit-keyframes path5 {
+	0% {left: 600px; top:480px;}
+	20% {left: 300px; top:65px;}
+	40% {left: 20px; top:60px; background-color: #e44a33; border-radius: 20px; width:170px; height: 20px;}
+	60% {left: 440px; top:90px;background-color: #e5443a; width:30px; height: 80px; -webkit-transform: rotate(80deg);}
+	80% {left: 220px; top:280px; background-color: #800aa1; border-radius: 10px;}
+	100% {left: 45px; top:100px; }
+}
+
+
+
+
+
+/*
+#div1.focus ~ #div1 {
+	display: none;
+}
+*/
